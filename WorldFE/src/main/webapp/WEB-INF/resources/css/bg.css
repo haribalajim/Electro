@@ -1,0 +1,127 @@
+@CHARSET "ISO-8859-1";
+
+*body{
+	margin:0;
+	padding:0;
+	fornt-family:'Montserrat','sans-serif';
+}
+.fullBackground{
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	heigth:100%;
+}
+
+
+.caption
+{
+	font-size:30pt;
+	text-transform:uppercase;
+	color:#fff;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+.caption:after
+{
+	content:"\A";
+	width:10px;
+	heigth:10px;
+	border-radius:50%;
+	background:#00bbeb;
+	display:inline-block;
+	margin:0 0 -2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.load{
+	animation:slide 2s;
+}
+
+.slider{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width:100%;
+	height: 100vh;
+	animation: slide 40s infinite;
+}
+
+.content{
+	color:#fff;
+	width:100%;
+	height:100vh;
+	background-color: rgba(0,0,0,0.5);
+	
+}
+
+.principal
+{
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	position:absolute;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+.principal h1{
+fornt-size:8 0px;	
+margin-bottom:20px;
+}
+
+.principal p{
+fornt-size:20px;	
+}
+
+@keyframes slider
+{
+	
+	10%
+	{
+	background-image: url('image/wp.jpg');
+	}
+	20.00%
+	{
+	background-image: url('image/wp.jpg');
+	}
+	20.01%
+	{
+	background-image: url('image/wp2.jpg');
+	}
+	40.01%
+	{
+	background-image: url('image/wp3.jpg');
+	}
+	60.02%
+	{
+	background-image: url('image/wp4.jpg');
+	}
+	80.02%
+	{
+	background-image: url('image/wp7.jpg');
+	}
+	
+}
+
+body{
+	
+}
+
+

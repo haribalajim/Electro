@@ -1,0 +1,62 @@
+@CHARSET "ISO-8859-1";
+   .fieldset 
+	{
+		border: 1px solid #ddd !important;
+		margin: 0;
+		xmin-width: 0;
+		padding: 10px;       
+		position: relative;
+		border-radius:4px;
+		background-color:#f5f5f5;
+		padding-left:10px!important;
+	}	
+	
+		.legend
+		{
+			font-size:14px;
+			font-weight:bold;
+			margin-bottom: 0px; 
+			width: 35%; 
+			border: 1px solid #ddd;
+			border-radius: 4px; 
+			padding: 5px 5px 5px 10px; 
+			background-color: #ffffff;
+		}
+		
+		 .product_view .modal-dialog{max-width: 800px; width: 100%;}
+        .pre-cost{text-decoration: line-through; color: #a5a5a5;}
+        .space-ten{padding: 10px 0;}
+        
+        .btn-product{
+	width: 100%;
+}
+
+
+@media (min-width: 1200px) {
+.navbar {
+max-width: 970px;
+}
+}
+*/
+
+@media (min-width: 1200px) {
+.container{
+max-width: 970px;
+}
+}
+
+.topbar{
+/background-color: #F08080;/
+background-color:#FADBD8;
+/opacity: 0.5;/
+color: black;
+}
+
+.space{
+margin-top: 58px;
+margin-left: 154px;
+
+}
+
+
+.carousel-indicators .active{ background: #31708f; } .content{ margin-top:20px; } .adjust1{ float:left; width:100%; margin-bottom:0; } .adjust2{ margin:0; } .carousel-indicators li{ border :1px solid #ccc; } .carousel-control{ color:#31708f; width:5%; } .carousel-control:hover, .carousel-control:focus{ color:#31708f; } .carousel-control.left, .carousel-control.right { background-image: none; } .media-object{ margin:auto; margin-top:15%; } @media screen and (max-width: 768px) { .media-object{ margin-top:0; } }
